@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #ff7f50;
+    margin: 20px 0;
+}
+
+section {
+    margin: 20px;
+}
+
+#sele-mascota, #sele-ataque {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #ff7f50;
+}
+
+label {
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#Hipo, #Capi, #Rati, #Lango {
+    border: 2px solid #604040;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#boton-mascota:hover{
+    cursor: pointer;
+    background-color: #a11300e8;
+    color: #fff;
+    transition:0.4s ease-in-out 0.1s;
+}
+
+/* Estilos para las etiquetas de mascota */
+.mascota-label {
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .mascota-label.selected {
+    background-color: #1A2A40; /* Color de fondo cuando está seleccionado */
+    color: #fff;
+    transition:0.3s ease-in-out 0.1s;
+}
+button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#mensajes {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+#reiniciar {
+    margin-top: 30px;
+}
